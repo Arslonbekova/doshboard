@@ -32,8 +32,8 @@ header .a1 .container {
 header .a1 .container .menu {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-bottom: 107px;
+  gap: 16px;
+  padding-bottom: 80px;
 }
 header .a1 .container .menu .item-box {
   width: 172px;
@@ -393,7 +393,7 @@ header .a3 .container {
   padding: 35px 33px 35px 32px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 header .a3 .container .top {
   display: flex;
@@ -440,9 +440,8 @@ header .a3 .container .audio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   align-items: center;
-  padding-bottom: 25px;
 }
 header .a3 .container .audio .img {
   display: flex;
@@ -514,7 +513,6 @@ header .a3 .container .next-book .card {
   margin-bottom: 10px;
   display: flex;
   gap: 15px;
-  align-items: center;
   width: 313px;
   height: 80px;
   flex-shrink: 0;
@@ -523,33 +521,42 @@ header .a3 .container .next-book .card {
   box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
   padding: 5px;
 }
-header .a3 .container .next-book .card .text {
+header .a3 .container .next-book .card .textt {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .a3 .container .next-book .card .textt .text {
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding-right: 29px;
 }
-header .a3 .container .next-book .card .text h3 {
+header .a3 .container .next-book .card .textt .text h3 {
   color: var(--gray-1, #333);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-header .a3 .container .next-book .card .text p {
+header .a3 .container .next-book .card .textt .text p {
   color: #8A97A4;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-header .a3 .container .next-book .card > p {
+header .a3 .container .next-book .card .textt > p {
   color: #8998A9;
   text-align: right;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+header .a3 .container .next-book .card:nth-child(3) {
+  margin-bottom: 0;
 }
 header .a3 .container .Daily-Work {
   display: flex;

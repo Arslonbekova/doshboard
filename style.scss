@@ -33,8 +33,8 @@ header {
             .menu {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
-                padding-bottom: 107px;
+                gap: 16px;
+                padding-bottom: 80px;
 
                 .item-box {
                     width: 172px;
@@ -457,7 +457,7 @@ header {
             padding: 35px 33px 35px 32px;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 30px;
 
             .top {
                 display: flex;
@@ -508,9 +508,8 @@ header {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 20px;
+                gap: 15px;
                 align-items: center;
-                padding-bottom: 25px;
 
                 .img {
                     display: flex;
@@ -545,11 +544,13 @@ header {
                         line-height: normal;
                     }
                 }
-                .icon{
+
+                .icon {
                     display: flex;
                     gap: 30px;
                     align-items: center;
-                    .crl{
+
+                    .crl {
                         width: 40px;
                         height: 40px;
                         flex-shrink: 0;
@@ -557,26 +558,30 @@ header {
                         border-radius: 50%;
                         padding: 12px;
                     }
-                    .crl:nth-child(2){
+
+                    .crl:nth-child(2) {
                         width: 50px;
                         height: 50px;
                         padding: 0;
                         background: #fff;
                         position: relative;
-                        img:nth-child(2){
+
+                        img:nth-child(2) {
                             top: 10px;
                             position: absolute;
                             left: 10px;
                         }
-                        
+
                     }
                 }
             }
-            .next-book{
+
+            .next-book {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                h2{
+
+                h2 {
                     color: var(--gray-1, #333);
                     font-size: 22px;
                     font-style: normal;
@@ -584,11 +589,11 @@ header {
                     line-height: normal;
                     letter-spacing: 0.66px;
                 }
-                .card{
+
+                .card {
                     margin-bottom: 10px;
                     display: flex;
                     gap: 15px;
-                    align-items: center;
                     width: 313px;
                     height: 80px;
                     flex-shrink: 0;
@@ -596,41 +601,60 @@ header {
                     background: #FFF;
                     box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.20);
                     padding: 5px;
-                    .text{
+
+                    .textt {
+                        width: 220px;
                         display: flex;
-                        flex-direction: column;
-                        gap: 5px;
-                        padding-right: 29px;
-                        h3{
-                            color: var(--gray-1, #333);
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .text {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            padding-right: 29px;
+
+                            h3 {
+                                color: var(--gray-1, #333);
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                            }
+
+                            p {
+                                color: #8A97A4;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
                         }
-                        p{
-                            color: #8A97A4;
+
+                        &>p {
+                            color: #8998A9;
+                            text-align: right;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: normal;
                         }
                     }
-                    &>p{
-                        color: #8998A9;
-text-align: right;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-                    }
+                }
+
+                .card:nth-child(3) {
+                    margin-bottom: 0;
+
+
                 }
             }
-            .Daily-Work{
+
+            .Daily-Work {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                h2{
+
+                h2 {
                     color: var(--gray-1, #333);
                     font-size: 22px;
                     font-style: normal;
@@ -638,7 +662,8 @@ line-height: normal;
                     line-height: normal;
                     letter-spacing: 0.66px;
                 }
-                .card{
+
+                .card {
                     display: flex;
                     gap: 32px;
                     width: 313px;
@@ -649,30 +674,35 @@ line-height: normal;
                     background: #FFF;
                     box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.20);
                     align-items: center;
-                    .text{
+
+                    .text {
                         display: flex;
                         flex-direction: column;
                         gap: 10px;
-                        p{
+
+                        p {
                             color: var(--green-1, #27A857);
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: normal;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
                         }
 
                     }
-                    .crl{
+
+                    .crl {
                         width: 70px;
                         height: 70px;
                         position: relative;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        img{
+
+                        img {
                             position: absolute;
                         }
-                        p{
+
+                        p {
                             color: var(--green-1, #27A857);
                             font-size: 20px;
                             font-style: normal;
