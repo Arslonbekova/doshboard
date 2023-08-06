@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  all: unset;
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  background: #F9F9F9;
+}
+header .a1 {
+  background: #FFF;
+  flex-shrink: 0;
+  border-radius: 40px 0px 0px 40px;
+  box-shadow: 1px 0px 2px 0px rgba(128, 128, 128, 0.1);
+}
+header .a1 .container {
+  width: 212px;
+  padding: 40px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 109px;
+}
+header .a1 .container .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 107px;
+}
+header .a1 .container .menu .item-box {
+  width: 172px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  color: #ABB5BA;
+  gap: 26px;
+}
+header .a1 .container .menu .item-box .crl {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding-top: 3px;
+  text-align: center;
+}
+header .a1 .container .menu .item-box .crl i {
+  font-size: 24px;
+}
+header .a1 .container .menu .item-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a1 .container .menu .item-box:hover {
+  background: var(--red-orange, #EB763C);
+  color: #FFF;
+}
+header .a1 .container .menu .item-box:hover .crl {
+  background: #FFF;
+}
+header .a1 .container .menu .item-box:hover .crl i {
+  color: #EB763C;
+}
+header .a1 .container .menu .item-box:nth-child(1) .crl {
+  padding-top: 2px;
+}
+header .a1 .container .menu .item-box:nth-child(3) .crl {
+  padding-top: 4px;
+}
+header .a1 .container .menu .item-box:nth-child(6) .crl {
+  padding-left: 3.5px;
+}
+header .a2 {
+  background: #F9F9F9;
+}
+header .a2 .container {
+  padding: 35px 40px 35px 35px;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+header .a2 .container .top {
+  display: flex;
+  justify-content: space-between;
+}
+header .a2 .container .top .search {
+  display: flex;
+  align-items: center;
+  width: 492px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ECF0F3;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+header .a2 .container .top .search input {
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 100px 15px 30px;
+  background: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .top .search div {
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  padding: 7px 9px;
+  color: rgb(39, 168, 87);
+}
+header .a2 .container .top .search div i {
+  font-size: 20px;
+}
+header .a2 .container .top .search input::-moz-placeholder {
+  color: #B2BAC8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .top .search input::placeholder {
+  color: #B2BAC8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .top .top-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+header .a2 .container .top .top-right p {
+  color: #212121;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+header .a2 .container .top .top-right .crl {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #D3F8D8;
+  border-radius: 50%;
+  padding: 7px;
+}
+header .a2 .container .hero {
+  background: #1AA928;
+  width: 775px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+}
+header .a2 .container .hero > img {
+  position: absolute;
+  opacity: 0.115;
+  top: 31px;
+}
+header .a2 .container .hero > img:nth-child(2) {
+  top: 42.81px;
+  opacity: 0.05;
+}
+header .a2 .container .hero .hero-left {
+  max-width: 364px;
+  color: #FFF;
+  padding: 35px 0 44px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .a2 .container .hero .hero-left h1 {
+  font-family: LeMonde Livre;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+}
+header .a2 .container .hero .hero-left p {
+  color: #DCE0E5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 14px;
+}
+header .a2 .container .hero .hero-left a {
+  width: 139px;
+  padding: 12px 0;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--red-orange, #EB763C);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+header .a2 .container .hero .img-box {
+  position: relative;
+}
+header .a2 .container .hero .img-box img {
+  position: absolute;
+  top: 24px;
+  left: 62px;
+}
+header .a2 .container .hero .img-box img:nth-child(2) {
+  top: 75px;
+  left: 171px;
+}
+header .a2 .container .hero .img-box img:nth-child(1) {
+  top: 56px;
+  left: 181px;
+}
+header .a2 .container .book-rek {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header .a2 .container .book-rek h3 {
+  color: var(--black-font, #303030);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+header .a2 .container .book-rek h3 b {
+  padding-left: 30px;
+  color: #1AA928;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .book-rek .cards-box {
+  display: flex;
+  gap: 42px;
+}
+header .a2 .container .book-rek .cards-box .card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+header .a2 .container .book-rek .cards-box .card h4 {
+  padding-top: 5px;
+  color: #434C56;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .a2 .container .book-rek .cards-box .card p {
+  color: #8D96A8;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .a2 .container .line {
+  width: 775px;
+  height: 1px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #E0E7EB;
+}
+header .a2 .container .Top-Authors {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header .a2 .container .Top-Authors h1 {
+  color: var(--black-font, #303030);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+header .a2 .container .Top-Authors h1 b {
+  padding-left: 30px;
+  color: #1AA928;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .Top-Authors .cards-box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+header .a2 .container .Top-Authors .cards-box .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+header .a2 .container .Top-Authors .cards-box .card .crl {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #27A857;
+  padding: 3.4px;
+  border-radius: 50%;
+}
+header .a2 .container .Top-Authors .cards-box .card .crl img {
+  border-radius: 50%;
+}
+header .a2 .container .Top-Authors .cards-box .card h4 {
+  color: #434D56;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a2 .container .bottom-card {
+  display: flex;
+  gap: 27px;
+}
+header .a2 .container .bottom-card .card {
+  display: flex;
+  width: 240px;
+  padding: 10px;
+  height: 87px;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+}
+header .a2 .container .bottom-card .card .kvd {
+  padding: 13px;
+  width: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #E4FBE7;
+}
+header .a2 .container .bottom-card .card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .a2 .container .bottom-card .card .text h3 {
+  color: var(--black-font, #303030);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .a2 .container .bottom-card .card .text p {
+  color: #8A97A4;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .a3 {
+  width: 378px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #E4FBE7;
+}
+header .a3 .container {
+  padding: 35px 33px 35px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .a3 .container .top {
+  display: flex;
+  gap: 20px;
+}
+header .a3 .container .top .crl {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  padding: 9px;
+}
+header .a3 .container .top .right {
+  width: 243px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--white, #FFF);
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .a3 .container .top .right #item {
+  outline: none;
+  border: none;
+  color: #212121;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a3 .container .audio {
+  width: 313px;
+  height: 331px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  box-shadow: 0px 40px 60px 0px rgba(128, 144, 155, 0.25);
+  background: url("img/Wing.png"), url("img/Group 2.png"), #FFF;
+  background-repeat: no-repeat;
+  background-position: 0 58px, 27px 179px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 25px;
+}
+header .a3 .container .audio .img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 26px 20px 0;
+}
+header .a3 .container .audio .img img:nth-child(2) {
+  border-radius: 14px;
+  border: 2px solid var(--green-1, #27A857);
+  padding: 4px;
+}
+header .a3 .container .audio .text h3 {
+  color: var(--gray-1, #333);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .a3 .container .audio .text p {
+  padding-top: 5px;
+  color: #70808F;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .a3 .container .audio .icon {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .a3 .container .audio .icon .crl {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #D6F5E1;
+  border-radius: 50%;
+  padding: 12px;
+}
+header .a3 .container .audio .icon .crl:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background: #fff;
+  position: relative;
+}
+header .a3 .container .audio .icon .crl:nth-child(2) img:nth-child(2) {
+  top: 10px;
+  position: absolute;
+  left: 10px;
+}
+header .a3 .container .next-book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .a3 .container .next-book h2 {
+  color: var(--gray-1, #333);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+header .a3 .container .next-book .card {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 313px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #FFF;
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+  padding: 5px;
+}
+header .a3 .container .next-book .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 29px;
+}
+header .a3 .container .next-book .card .text h3 {
+  color: var(--gray-1, #333);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .a3 .container .next-book .card .text p {
+  color: #8A97A4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .a3 .container .next-book .card > p {
+  color: #8998A9;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .a3 .container .Daily-Work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .a3 .container .Daily-Work h2 {
+  color: var(--gray-1, #333);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+header .a3 .container .Daily-Work .card {
+  display: flex;
+  gap: 32px;
+  width: 313px;
+  padding: 14px 30px;
+  height: 118px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+  align-items: center;
+}
+header .a3 .container .Daily-Work .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .a3 .container .Daily-Work .card .text p {
+  color: var(--green-1, #27A857);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .a3 .container .Daily-Work .card .crl {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .a3 .container .Daily-Work .card .crl img {
+  position: absolute;
+}
+header .a3 .container .Daily-Work .card .crl p {
+  color: var(--green-1, #27A857);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
